@@ -704,3 +704,7 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
   .pl-btn { grid-column: 1 / -1; width: 100%; min-height: 44px; }
   .pl-more .btn-outline { flex: 1 1 140px; min-width: 0; padding: 0 12px; }
 }
+
+/* Sticky bar: Call Now + Request a Call Back only; call back is the filled primary. */
+.action-bar .ab-callback { background: #f6e6d8; color: #5a2412; border: 0; font-weight: 700; }
+.action-bar .ab-callback:hover { background: #fff; }
