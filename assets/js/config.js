@@ -23,8 +23,8 @@ window.QS_CONFIG = {
 
   /* Sales / channel-partner number. Call buttons stay hidden until both are set.
    * Example: phoneDisplay "98765 43210", phoneE164 "+919876543210". */
-  phoneDisplay: "",
-  phoneE164: "",
+  phoneDisplay: "76766 65738",
+  phoneE164: "+917676665738",
 
   /* WhatsApp number, digits only with country code (e.g. "919876543210"). WhatsApp buttons stay hidden until set. */
   whatsappNumber: "",
