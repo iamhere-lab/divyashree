@@ -223,7 +223,7 @@
       lead_id: leadId,
       project: "DivyaSree Quiet Side",
       developer: "DivyaSree",
-      location: "Akshayanagar, Bannerghatta Road, South Bengaluru",
+      location: "Yelahanka New Town, North Bengaluru",
       source: "Website - DivyaSree Quiet Side landing page",
       name: v.name,
       phone: v.cc + v.digits,
