@@ -710,5 +710,8 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
 .action-bar .ab-callback:hover { background: #fff; }
 
 /* Hero price line: sans with lining numerals; the serif's old-style figures were hard to read over the photo. */
-.hero-price { font-family: var(--sans); font-weight: 700; font-size: clamp(15px, 4.4vw, 19px); line-height: 1.4; letter-spacing: .01em; font-variant-numeric: lining-nums; text-shadow: 0 1px 12px rgba(0, 0, 0, .6); }
+.hero-price { font-family: var(--sans); font-weight: 700; font-size: 19px; line-height: 1.4; letter-spacing: .01em; font-variant-numeric: lining-nums; text-shadow: 0 1px 12px rgba(0, 0, 0, .6); }
 @media (min-width: 768px) { .hero-price { font-size: 23px; } }
+.hero-price span { white-space: nowrap; }
+.hero-price i { font-style: normal; }
+@media (max-width: 767px) { .hero-price span { display: block; } .hero-price i { display: none; } }
