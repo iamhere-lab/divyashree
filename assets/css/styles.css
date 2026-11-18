@@ -729,6 +729,6 @@ body { padding-bottom: calc(68px + env(safe-area-inset-bottom)); }
   .hero-specs dd { font-size: 19px; }
   .hero-specs .hs-price dd { font-size: 28px; }
 }
-/* Stronger hero spec dividers */
-.hero-specs { border-top: 2px solid rgba(255,255,255,.85); }
-.hero-specs > div { border-bottom: 2px solid rgba(255,255,255,.85); }
+/* Subtle hero spec dividers */
+.hero-specs { border-top: 1px solid rgba(255,255,255,.16); }
+.hero-specs > div { border-bottom: 1px solid rgba(255,255,255,.16); }
